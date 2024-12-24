@@ -10,7 +10,7 @@ import cv2
 import numpy as np
 import os
 
-WEIGHTS_PATH = f"{os.getcwd()}/my_robot/autorace_core_roscomnadzor/model/best.pt"
+WEIGHTS_PATH = f"{os.getcwd()}/src/NSU-ROS-competition/autorace_core_roscomnadzor/model/best.pt"
 #WEIGHTS_PATH = f"best.pt"my_robot/autorace_core_roscomnadzor/model/best.pt
 
 class Detector:
